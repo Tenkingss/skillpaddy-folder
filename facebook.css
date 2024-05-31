@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+overflow: hidden;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.left h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.left img {
+    height: 106px;
+    margin: -28px;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+}
+.right {
+    height: 456px;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 1rem;
+    width: 396px;
+    height: 80%;
+}
+.right-top form {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+width: 100%;
+}
+.right-top form input {
+    outline: none;
+    font-size: 17px;
+    border:1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    border-radius: 6px;
+    padding: 14px 16px;
+}
+.right-top form button {
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.2rem;
+}
+.right-top a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.right-top a:hover {
+    text-decoration: underline;
+}
+.right-top hr {
+   color: dadde1;
+    width:100% ;
+}
+.create-btn {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    cursor: pointer;
+}
+.create-btn:hover {
+    background-color: #1f9f05;
+}
+.create-page {
+    margin: 0;
+    text-align: center;
+    color:#1c1e21;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.create-page a {
+    color:#1c1e21;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.create-page a:hover {
+    text-decoration: underline;
+}
